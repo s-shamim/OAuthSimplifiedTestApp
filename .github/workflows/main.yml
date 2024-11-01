@@ -34,3 +34,4 @@ jobs:
         with:
           BRANCH: gh-pages
           FOLDER: dist/Web/wwwroot
+          token: ${{ secrets.GIT_TECHDEPLOY_TOKEN }}
